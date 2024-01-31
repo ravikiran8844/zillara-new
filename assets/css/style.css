@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Gotham";
+    src:
+      url("/assets/fonts/Gotham/Gotham-Light.otf") format("opentype"),
+      url("/assets/fonts/Gotham/Gotham-Medium.otf") format("opentype")
+  }
+  
+  .primary-color{
+    color: #3C1053;
+  }
+
+
+.announcement-bar{
+    width: 100%;
+    background: url('/assets/images/background/announcment-bar.png'), lightgray 50% / cover no-repeat;
+    padding: 8px 10px;
+}
+.announcement-bar_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 12px */
+}
+
+@media (min-width:768px) {
+    .announcement-bar_text{
+        color: #FFF;
+        text-align: center;
+        font-family: Gotham;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 16px */
+    }
+}
+
+
+
+
+/* home-main-banner */
+.home-main-banner picture img{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+
+.home-main-banner{
+    position: relative;
+}
+
+.home-main-banner-content{
+    position: relative;
+    background: #F9F2F7;
+    padding: 20px;
+}
+.home-main-banner-content__title {
+    color: #3C1053;
+    font-family: Gotham;
+    font-weight: 700;
+}
+.home-main-banner-content__text{
+    color: #3C1053;
+    font-family: Gotham;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 16.9px */
+}
+
+
+.home-main-banner button{
+    color: #2D2D2D;
+    text-transform: uppercase;
+    border-radius: 3.22px;
+    border: 2px solid #B99CE2;
+    }
+
+@media (min-width:650px) {
+    .home-main-banner-content{
+        background-color: transparent;
+        position: absolute;
+        left: 2%;
+        top: 0;
+        max-width: 550px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-main-banner-content__title {
+        color: #FFF;
+        font-family: Gotham;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 104%; /* 56.16px */
+    }
+    .home-main-banner-content__text{
+        color: #FFF;
+        font-family: Gotham;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 26px */
+    }
+    .home-main-banner button{
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 3.22px;
+        border: 2px solid #B99CE2;
+        }
+}   
+
+
+
+
+
+/* home-section6 */
+
+
+.home-section6__items{
+    display: flex;
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home-section6__item{
+    width: 100px;
+}
+.home-section6__item-text{
+    color: #3C1053;
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+}
